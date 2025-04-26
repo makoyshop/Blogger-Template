@@ -10,7 +10,13 @@
     </b:if> 
     <b:include data='blog' name='all-head-content'/> 
     <title><data:blog.pageTitle/></title>
-   <b:skin></b:skin>
+   <b:skin><![CDATA[/*
+-----------------------------------------------
+/////////// HTML THEME////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////TEMPLATE CREATED BY :makoyshop/////////////////////////////////////////////////////////////
+/////////////////////// DOWNLOAD FROM: makoyshop//////////////////////////////////////////////////
+----------------------------------------------
+]]></b:skin>
    
   </head>
   <body>
@@ -21,7 +27,7 @@
 <!--Start Please keep the Credits intact-->
 <div style='margin-top:300px; '> 
 <center>
-  <p class='author'>&#169; <b>MAKOY SHOP </b><br> <a href='https://web.facebook.com/@makoyshop'> Facebook </a></p></center></div>
+  <p class='author'>&#169; <b>2025</b> <a href='https://web.facebook.com/makoyshop'> MakoyShop </a></p></center></div>
 
 
   <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'/>
